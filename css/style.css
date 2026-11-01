@@ -54,3 +54,7 @@
 @media(max-width:760px){
   .navlinks a{display:block!important}
 }
+
+
+/* v0.9 — use each app's actual published icon */
+.app-mark{overflow:hidden;background:transparent!important;box-shadow:none!important}.app-mark .app-icon-img,.scene-icon .app-icon-img{display:block;width:100%;height:100%;object-fit:cover;border-radius:inherit}.scene-icon{width:58px;height:58px;margin:18px 0 10px;border-radius:16px;overflow:hidden}.scene-icon .app-icon-img{border-radius:16px}.card .app-mark{padding:0}.app-hero .app-mark{width:76px;height:76px;border-radius:20px}.app-hero .app-mark .app-icon-img{border-radius:20px}
