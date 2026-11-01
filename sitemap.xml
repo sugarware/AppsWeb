@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://sugarware.github.io/AppsWeb/</loc></url>
-<url><loc>https://sugarware.github.io/AppsWeb/apps/coco-code.html</loc></url>
-<url><loc>https://sugarware.github.io/AppsWeb/apps/otview.html</loc></url>
-<url><loc>https://sugarware.github.io/AppsWeb/apps/stedit.html</loc></url>
-<url><loc>https://sugarware.github.io/AppsWeb/apps/emoji-das.html</loc></url>
-<url><loc>https://sugarware.github.io/AppsWeb/apps/qr-comm.html</loc></url>
-<url><loc>https://sugarware.github.io/AppsWeb/apps/golf-score.html</loc></url>
-<url><loc>https://sugarware.github.io/AppsWeb/apps/sleeping-kindle.html</loc></url>
-<url><loc>https://sugarware.github.io/AppsWeb/privacy.html</loc></url>
+  <url><loc>https://sugarware.github.io/AppsWeb/</loc></url>
+  <url><loc>https://sugarware.github.io/AppsWeb/apps.html</loc></url>
+  <url><loc>https://sugarware.github.io/AppsWeb/stories.html</loc></url>
+  <url><loc>https://sugarware.github.io/AppsWeb/about.html</loc></url>
+  <url><loc>https://sugarware.github.io/AppsWeb/apps/coco-code.html</loc></url>
+  <url><loc>https://sugarware.github.io/AppsWeb/apps/otview.html</loc></url>
+  <url><loc>https://sugarware.github.io/AppsWeb/apps/stedit.html</loc></url>
+  <url><loc>https://sugarware.github.io/AppsWeb/apps/emoji-das.html</loc></url>
+  <url><loc>https://sugarware.github.io/AppsWeb/apps/qr-comm.html</loc></url>
+  <url><loc>https://sugarware.github.io/AppsWeb/apps/golf-score.html</loc></url>
+  <url><loc>https://sugarware.github.io/AppsWeb/apps/sleeping-kindle.html</loc></url>
+  <url><loc>https://sugarware.github.io/AppsWeb/privacy.html</loc></url>
 </urlset>
