@@ -13,3 +13,16 @@
 @media(max-width:900px){.hero-layout{grid-template-columns:1fr;gap:22px}.hero-visual{height:250px;max-width:560px;width:100%;margin:0 auto}.hero-visual:before{inset:10px 60px}.mc1{top:25px;left:9%}.mc2{top:92px;right:7%}.mc3{bottom:6px;left:20%}.visual-label{right:5%;top:10px}.aboutbox{grid-template-columns:120px 1fr}.about-accent{width:110px;height:110px;border-radius:28px;font-size:2rem}}
 @media(max-width:760px){.hero{padding-bottom:42px}.hero-layout{gap:10px}.hero-visual{height:225px}.mini-card{width:195px;padding:12px 13px;grid-template-columns:38px 1fr}.mini-card span{width:38px;height:38px;font-size:20px}.mc1{left:2%;top:20px}.mc2{right:0;top:88px}.mc3{left:10%;bottom:0}.card{min-height:0}.aboutbox{grid-template-columns:1fr;padding:30px 25px}.about-accent{width:72px;height:72px;border-radius:20px;font-size:1.35rem}.about-catch br{display:none}}
 @media(max-width:420px){.hero-visual{transform:scale(.92);transform-origin:center top;margin-bottom:-15px}.mini-card{width:184px}.mc1{left:0}.mc2{right:-3%}.mc3{left:4%}}
+
+
+/* v0.4 — richer showcase: scenes, denser app gallery, stronger visual rhythm */
+.scene-copy{position:absolute;right:2px;bottom:-4px;width:250px;padding:15px 17px;border-radius:17px;background:#1d513b;color:#fff;box-shadow:0 14px 32px rgba(23,32,25,.14);transform:rotate(1deg)}
+.scene-copy b{display:block;font-size:.86rem;line-height:1.45}.scene-copy small{display:block;margin-top:5px;color:#dcebe1;font-size:.69rem;line-height:1.45}
+.mc1:after,.mc2:after,.mc3:after{position:absolute;right:12px;top:-10px;padding:2px 8px;border-radius:999px;background:#fff;border:1px solid var(--line);font-size:.62rem;font-weight:800;color:var(--muted);box-shadow:0 4px 12px rgba(23,32,25,.06)}
+.mc1:after{content:"外出先"}.mc2:after{content:"ゴルフ場"}.mc3:after{content:"家"}
+.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.card{min-height:235px;background:linear-gradient(145deg,#fff 62%,color-mix(in srgb,var(--card-accent,var(--accent)) 5%,white));padding:27px}.card .app-mark{width:70px;height:70px;border-radius:20px;font-size:32px;box-shadow:inset 0 0 0 1px color-mix(in srgb,var(--card-accent,var(--accent)) 14%,transparent)}
+.card:nth-child(1),.card:nth-child(6),.card:nth-child(7){min-height:255px}.card:nth-child(1) .app-mark,.card:nth-child(6) .app-mark,.card:nth-child(7) .app-mark{transform:scale(1.06);transform-origin:left top}
+.article-section{background:linear-gradient(180deg,var(--bg),#f1f5f0)}
+@media(min-width:1180px){.grid{grid-template-columns:repeat(3,minmax(0,1fr))}.card{min-height:270px}.card:first-child{grid-column:span 2}.card:first-child p{max-width:650px}}
+@media(max-width:900px){.scene-copy{right:6%;bottom:-8px}.hero-visual{margin-bottom:24px}}
+@media(max-width:760px){.scene-copy{right:1%;bottom:-18px;width:225px}.grid{grid-template-columns:1fr}.card{min-height:0}.hero-visual{margin-bottom:34px}}
