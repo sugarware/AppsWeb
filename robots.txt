@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://sugarware.github.io/WebApps/sitemap.xml
