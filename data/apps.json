@@ -1,0 +1,9 @@
+{"apps":[
+{"id":"coco-code","name":"ここコード","tagline":"必要なものを、必要な場所ですぐ出したい。","page":"apps/coco-code.html","appUrl":"https://sugarware.github.io/CoCo-Code/","tags":["QR・バーコード","位置情報","PWA"]},
+{"id":"otview","name":"OTView","tagline":"大量のテキストを、読むときも探すときも快適に。","page":"apps/otview.html","appUrl":"https://sugarware.github.io/OTView/","tags":["アウトライン","検索","Markdown"]},
+{"id":"stedit","name":"STEdit","tagline":"読むためのテキストを、シンプルに直す。","page":"apps/stedit.html","appUrl":"https://sugarware.github.io/STEdit/","tags":["テキスト編集","OTView連携"]},
+{"id":"emoji-das","name":"絵文字ダス","tagline":"名前を知らなくても、意味から絵文字を探せる。","page":"apps/emoji-das.html","appUrl":"https://sugarware.github.io/EmojiDas/","tags":["絵文字検索","日本語","PWA"]},
+{"id":"qr-comm","name":"QR通信","tagline":"QRコードを連続させて、画面からカメラへデータを送る。","page":"apps/qr-comm.html","appUrl":"https://sugarware.github.io/QR-Comm/","tags":["QRコード","端末間転送","実験"]},
+{"id":"golf-score","name":"Golf Score Pro","tagline":"ゴルフ場では、多機能より少ない操作で間違えない。","page":"apps/golf-score.html","appUrl":"https://sugarware.github.io/GolfScore/","tags":["ゴルフ","スコア","オリンピック"]},
+{"id":"sleeping-kindle","name":"SleepingKindle","tagline":"眠っているKindleの画面を、簡易掲示板に。","page":"apps/sleeping-kindle.html","appUrl":"https://sugarware.github.io/KindleBoard/","tags":["Kindle","E-ink","ToDo"]}
+]}
