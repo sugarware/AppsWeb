@@ -56,5 +56,10 @@
 }
 
 
-/* v0.9 — use each app's actual published icon */
-.app-mark{overflow:hidden;background:transparent!important;box-shadow:none!important}.app-mark .app-icon-img,.scene-icon .app-icon-img{display:block;width:100%;height:100%;object-fit:cover;border-radius:inherit}.scene-icon{width:58px;height:58px;margin:18px 0 10px;border-radius:16px;overflow:hidden}.scene-icon .app-icon-img{border-radius:16px}.card .app-mark{padding:0}.app-hero .app-mark{width:76px;height:76px;border-radius:20px}.app-hero .app-mark .app-icon-img{border-radius:20px}
+/* v0.10 — icon paths/layout fix for iPad mini 6 (744 CSS px) */
+.app-icon-img{display:block;width:100%;height:100%;object-fit:contain;border-radius:14px}
+.scene-icon{width:62px;height:62px}
+.app-mark{overflow:hidden}
+@media(max-width:900px){.scene-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:680px){.scene-grid,.home-next-grid,.app-grid{grid-template-columns:1fr}}
+@media(min-width:681px) and (max-width:760px){.scene-grid,.app-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
