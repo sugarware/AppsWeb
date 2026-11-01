@@ -45,3 +45,12 @@
 
 /* v0.7 — Apps / Stories / About are visually independent pages, like Privacy */
 .app-hero + .compact-section{padding-top:20px}
+
+
+/* v0.8 — true page navigation
+   Home contains no Apps / Stories / About body sections.
+   These are separate HTML destinations only. */
+.home-next{display:none!important}
+@media(max-width:760px){
+  .navlinks a{display:block!important}
+}
