@@ -41,3 +41,7 @@
 @media(max-width:900px){.scene-grid{grid-template-columns:repeat(3,1fr);gap:12px}.scene{padding:20px;min-height:245px}.app-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:760px){.navlinks{gap:12px}.navlinks a{display:block!important;font-size:.82rem}.scene-grid,.home-next-grid,.app-grid{grid-template-columns:1fr}.scene{min-height:0}.page-hero{padding-top:52px}.home-hero{padding-top:52px}}
 @media(max-width:520px){.brand{font-size:.9rem}.navlinks{gap:9px}.navlinks a{font-size:.76rem}}
+
+
+/* v0.7 — Apps / Stories / About are visually independent pages, like Privacy */
+.app-hero + .compact-section{padding-top:20px}
